@@ -1,4 +1,4 @@
-#!/nix/store/hh7ng31k7y30yxz2q2bgcymmzy3kh0i7-python3-3.8.9-env/bin/python3
+#!/usr/bin/env python3
 
 import argparse
 import os
