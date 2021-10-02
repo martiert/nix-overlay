@@ -5,13 +5,13 @@ let
   binaryName = "projecteur";
 in mkDerivation rec {
   pname = "Projecteur";
-  version = "0.9.1";
+  version = "0.9.2";
 
   src = fetchFromGitHub {
     owner = "jahnf";
     repo = "Projecteur";
-    rev = "v0.9.1";
-    sha256 = "1wwp8jbs1d32b412s7m6gfvrcl33h9ddd5makclwhjkwijlvzkyv";
+    rev = "v0.9.2";
+    sha256 = "021i5im9hnpwim2l1135s5pw5ixwjw7hc4yh8hx907vqs9iah3lj";
   };
 
   nativeBuildInputs = [
